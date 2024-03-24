@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    /* Primary */
+    --Green: hsl(75, 94%, 57%);
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--Off-Black);
+    color: var(--White);
+    padding: 1.8rem 3rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: var(--Dark-Grey);
+    padding: 2rem;
+    margin: auto;
+    width: 23rem;
+    height: 38rem;
+    border-radius: 0.3rem;
+    box-shadow: 3px 3px 15px var(--Grey);
+}
+
+.profile-picture {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+.profile-picture img:hover {
+    transform: scale(1.2);
+    
+}
+
+.profile-picture img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+}
+
+.title {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+
+.location {
+    color: var(--Green);
+    font-size: 1rem;
+    margin-bottom: 1.2rem;
+    font-weight: bold;
+}
+
+.job-title {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1.2px;
+}
+
+.button-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    background-color: var(--Grey);
+    color: var(--White);
+    padding: 1rem 1.2rem;
+    border: none;
+    border-radius: 0.4rem;
+    margin-bottom: .9rem;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.btn:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+}
+
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 300px;
+    }
+    .job-title {
+        font-size: 0.5rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+
+}
