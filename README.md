@@ -1,5 +1,5 @@
 # Social Links Profile Component Documentation
-View the live demo [HERE](https://6600b53c3840ca4130d9aeb8--imaginative-paletas-725e3e.netlify.app/)
+View the live demo [HERE](https://66010619beabdc732b9ee474--teal-snickerdoodle-c7c175.netlify.app/)
 
 ## Description
 This HTML and CSS component allows you to create a social links profile with an interactive profile image and hover effects on tabs. It's fully responsive, providing a consistent experience across different devices.
